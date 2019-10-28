@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:orientation="vertical">
+
+            <com.ms.banner.Banner
+                android:id="@+id/banner1"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:indicator_margin="6dp"
+                app:page_left_margin="30dp"
+                app:page_right_margin="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+         />
+
+            <LinearLayout
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+        <com.ms.banner.Banner
+            android:id="@+id/banner2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            app:page_left_margin="30dp"
+            app:page_right_margin="30dp"
+            />
+
+        <com.ms.banner.Banner
+            android:id="@+id/banner4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            app:page_right_margin="35dp" />
+
+        <com.ms.banner.Banner
+            android:id="@+id/banner3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            app:arc_end_color="#009cff"
+            app:arc_height="10dp"
+            app:arc_start_color="#00ffff"
+            app:indicator_margin="13dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:text="这是一个修改banner布局文件的例子，你可以按照这个套路修改里面的内容" />
+
+    </LinearLayout>
+</ScrollView>

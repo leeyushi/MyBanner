@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url">
+        <item>https://upload-images.jianshu.io/upload_images/9913211-fc35f7c7fc8c37d2.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-3d3ebe3484d91c0e.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-9b33a47c7032f638.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-edc2769c1a2ef404.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-c1ede2e29e85371e.jpg</item>
+    </array>
+
+    <array name="url1">
+        <item>https://upload-images.jianshu.io/upload_images/9913211-1c553827bdae32d2.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-a6e6062a81d9258d.jpg</item>
+    </array>
+    <array name="url2">
+        <item>https://upload-images.jianshu.io/upload_images/9913211-51b0484e0c906c91.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-8f28da27dd550fe5.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-a0575ae640238bfe.jpg</item>
+        <item>https://upload-images.jianshu.io/upload_images/9913211-1c553827bdae32d2.jpg</item>
+    </array>
+    <array name="title">
+        <item>51巅峰钜惠</item>
+        <item>十大星级品牌联盟，全场2折起</item>
+        <item>生命不是要超越别人，而是要超越自己。</item>
+        <item>己所不欲，勿施于人。——孔子</item>
+        <item>嗨购5折不要停</item>
+    </array>
+    <array name="demo_list">
+        <item>banner动画预览</item>
+        <item>banner指示器样式预览</item>
+        <item>banner指示器位置设置预览</item>
+        <item>banner一些自定义样式方法预览</item>
+        <item>banner加载本地图片</item>
+        <item>banner自定义布局文件</item>
+        <item>ViewPager + Fragment + Banner</item>
+        <item>banner更多用法请看文档，这里就不一一列举了！</item>
+    </array>
+    <array name="anim">
+        <item>Default</item>
+        <item>Accordion</item>
+        <item>BackgroundToForeground</item>
+        <item>ForegroundToBackground</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>DepthPage</item>
+        <item>FlipHorizontal</item>
+        <item>FlipVertical</item>
+        <item>RotateDown</item>
+        <item>RotateUp</item>
+        <item>ScaleInOut</item>
+        <item>Scale</item>
+        <item>ScaleRight</item>
+        <item>Stack</item>
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>ZoomOutSlide</item>
+    </array>
+    <string-array name="style">
+        <item>NOT_INDICATOR</item>
+        <item>CIRCLE_INDICATOR</item>
+        <item>NUM_INDICATOR</item>
+        <item>NUM_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE_INSIDE</item>
+        <item>CUSTOM_INDICATOR</item>
+    </string-array>
+    <string-array name="indicator">
+        <item>LEFT</item>
+        <item>CENTER</item>
+        <item>RIGHT</item>
+    </string-array>
+</resources>
